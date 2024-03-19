@@ -2,8 +2,8 @@ Test project for https://felix-its.uz/
 
 ## Django Installation
 ```bash
-git clone
-cd felix-its
+git clone https://github.com/asilbek3450/felix-warehouse.git
+cd felix-warehouse
 pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
