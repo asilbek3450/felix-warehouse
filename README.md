@@ -9,10 +9,9 @@ python manage.py runserver
 ```
 
 ## Test request for API
-# image upload
-
+### request image
 ![alt text](https://github.com/asilbek3450/felix-warehouse/blob/main/img/request_.png?raw=true)
 
-# response
+### response image
 ![alt text](https://github.com/asilbek3450/felix-warehouse/blob/main/img/response.png?raw=true)
 
