@@ -11,7 +11,7 @@ python manage.py runserver
 ## Test request for API
 # image upload
 
-![alt text](https://github.com/asilbek3450/felix-warehouse/blob/main/img/request.png?raw=true)
+![alt text](https://github.com/asilbek3450/felix-warehouse/blob/main/img/request_.png?raw=true)
 
 # response
 ![alt text](https://github.com/asilbek3450/felix-warehouse/blob/main/img/response.png?raw=true)
