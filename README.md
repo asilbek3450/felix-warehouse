@@ -5,6 +5,9 @@ Test project for https://felix-its.uz/
 git clone
 cd felix-its
 pip install -r requirements.txt
+python manage.py makemigrations
+python manage.py migrate
+"configure your .env file"
 python manage.py runserver
 ```
 
