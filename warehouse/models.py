@@ -23,7 +23,7 @@ class ProductMaterial(models.Model):
     unit = models.CharField(max_length=255)  # kg, l, m3, m2, m1, etc.
 
     def __str__(self):
-        return self.product_id.name + " " + self.material_id.name
+        return self.product_id.name + " uchun " + str(self.quantity_material) + " " + str(self.unit) + " " + self.material_id.name + " kerak"
 
 
 class Warehouse(models.Model):

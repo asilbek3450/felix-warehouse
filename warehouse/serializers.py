@@ -1,12 +1,13 @@
 from rest_framework import serializers
 
-from .models import ProductMaterial, Warehouse, Material, Product
+from .models import ProductMaterial, Warehouse
 
 
 class ProductMaterialSerializer(serializers.ModelSerializer):
     class Meta:
         model = ProductMaterial
         fields = ['id', 'product_id', 'material_id', 'quantity_material', 'unit']
+        depth = 1
 
 
 class WarehouseSerializer(serializers.ModelSerializer):
